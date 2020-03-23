@@ -1,0 +1,23 @@
+NLP with PyTorch book
+
+https://pytorch-nlp-tutorial-ny2018.readthedocs.io/en/latest/environment_setup.html
+
+Conda Env: "dl4nlp"
+
+Steps:
+1. Create conda env
+$ conda create -n dl4nlp python=3.6
+$ source activate dl4nlp
+
+2. Install pytorch
+$ conda install pytorch torchvision -c pytorch
+
+3. Install jupyter notebook
+$ conda install jupyter
+$ python -m ipykernel install --user --name dl4nlp
+
+
+--- This folder also contains tutorials from
+https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html	
+ 
+
