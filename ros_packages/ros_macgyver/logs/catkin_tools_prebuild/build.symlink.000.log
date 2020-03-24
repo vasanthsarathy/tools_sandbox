@@ -1,0 +1,8 @@
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/./setup.sh
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/./setup.bash
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/./setup.zsh
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/./env.sh
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/./_setup_util.py
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/pkgconfig/catkin_tools_prebuild.pc

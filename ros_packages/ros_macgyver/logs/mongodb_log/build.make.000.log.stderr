@@ -1,0 +1,1029 @@
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/message_log_domain.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/logger.h:19[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/util/assert_util.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsontypes.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonelement.h:25[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonobj.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/bulk_operation_builder.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:29[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/log_domain.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<EventAppender> AppenderAutoPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/message_log_domain.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/logger.h:19[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/util/assert_util.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsontypes.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonelement.h:25[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonobj.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/bulk_operation_builder.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:29[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/log_domain.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<EventAppender> AppenderAutoPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/db/jsobj.h:36:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/exceptions.h:21[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:30[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonmisc.h:252:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<BSONObjBuilder> _subobj;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:680:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:761:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1264:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> enumerateCollections(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1301:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> enumerateIndexes(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1411:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> _legacyCollectionInfo(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1497:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1529:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> aggregate(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1561:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1774:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:301:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientConnection> _lastSlaveOkConn;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:202:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<Message> m;
+[01;32m[K              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:237:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursorShim> shim;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:124:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list() const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:129:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list(BSONObj query) const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/init.h:22:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:63[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/options.h:41:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<logger::MessageLogDomain::EventAppender> LogAppenderPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_pcl.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/message_log_domain.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/logger.h:19[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/util/assert_util.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsontypes.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonelement.h:25[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonobj.h:27[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/bulk_operation_builder.h:20[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:29[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/logger/log_domain.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<EventAppender> AppenderAutoPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/db/jsobj.h:36:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/exceptions.h:21[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:30[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonmisc.h:252:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<BSONObjBuilder> _subobj;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:680:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:761:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1264:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> enumerateCollections(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1301:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> enumerateIndexes(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1411:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> _legacyCollectionInfo(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1497:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1529:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> aggregate(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1561:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1774:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:301:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientConnection> _lastSlaveOkConn;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:202:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<Message> m;
+[01;32m[K              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:237:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursorShim> shim;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:124:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list() const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:129:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list(BSONObj query) const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/init.h:22:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:63[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:35[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/options.h:41:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<logger::MessageLogDomain::EventAppender> LogAppenderPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_tf.cpp:30[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/db/jsobj.h:36:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/exceptions.h:21[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:30[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/bson/bsonmisc.h:252:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<BSONObjBuilder> _subobj;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:680:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:761:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1264:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> enumerateCollections(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1301:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> enumerateIndexes(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1411:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> _legacyCollectionInfo(const std::string& db,
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1497:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1529:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> aggregate(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1561:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> getMore(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:23:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientinterface.h:1774:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:74:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     virtual std::auto_ptr<DBClientCursor> query(const std::string& ns,
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:231:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> checkSlaveQueryResult(std::auto_ptr<DBClientCursor> result);
+[01;32m[K                                                              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:59:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient_rs.h:301:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientConnection> _lastSlaveOkConn;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:202:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<Message> m;
+[01;32m[K              ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:60:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclientcursor.h:237:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursorShim> shim;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:124:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list() const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:62:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/gridfs.h:129:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<DBClientCursor> list(BSONObj query) const;
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/init.h:22:0[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/dbclient.h:63[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:26[m[K:
+[01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/libmongocxx_ros/include/mongo/client/options.h:41:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     typedef std::auto_ptr<logger::MessageLogDomain::EventAppender> LogAppenderPtr;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/5/locale:43[m[K,
+                 from [01m[K/usr/include/c++/5/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_log/src/mongodb_log_cimg.cpp:25[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K

@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_log
+
+Name: mongodb_log
+Description: Description of mongodb_log
+Version: 0.4.5
+Cflags: 
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_log/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store_msgs
+
+Name: mongodb_store_msgs
+Description: Description of mongodb_store_msgs
+Version: 0.4.5
+Cflags: -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store_msgs/include
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store_msgs/lib 
+Requires: message_generation

@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+2b1b6433ce2175935295064c59e1532c CMakeFiles/clean_test_results
+73c46d5bbe048336280d0243adfe3322 CMakeFiles/mongocxx
+f9c4363c159761aed1c8fffdf0096f07 CMakeFiles/mongocxx-complete
+cbaa5e00983ef3e0f383049649621f2b mongocxx/src/mongocxx-stamp/mongocxx-build
+b8627f9f4257f7e07b8c816cafd1dc67 mongocxx/src/mongocxx-stamp/mongocxx-configure
+2f3ee13076fd1c2d186f88e4c156fc08 mongocxx/src/mongocxx-stamp/mongocxx-download
+547aa7d127eebe0043ce7982628df3b3 mongocxx/src/mongocxx-stamp/mongocxx-install
+5eb618d76364a68443b8206a09957d4a mongocxx/src/mongocxx-stamp/mongocxx-mkdir
+877234ae5ec22f2b8dc7808dd2b87632 mongocxx/src/mongocxx-stamp/mongocxx-patch
+a91c4683f1237ebaadbae3805b8840a8 mongocxx/src/mongocxx-stamp/mongocxx-update

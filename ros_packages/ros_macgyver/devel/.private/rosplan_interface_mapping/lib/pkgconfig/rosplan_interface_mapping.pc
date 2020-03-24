@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_interface_mapping
+
+Name: rosplan_interface_mapping
+Description: Description of rosplan_interface_mapping
+Version: 0.0.2
+Cflags: -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_interface_mapping/include
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_interface_mapping/lib 
+Requires: 

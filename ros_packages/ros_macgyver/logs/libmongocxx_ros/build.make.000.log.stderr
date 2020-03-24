@@ -1,0 +1,8 @@
+Cloning into 'mongocxx'...
+Switched to a new branch 'releases/legacy'
+[01m[Ksrc/mongo/base/global_initializer.cpp:32:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kmongo::{anonymous}::_theGlobalInitializer[m[K' defined but not used [-Wunused-variable]
+ Initializer* _theGlobalInitializer = &getGlobalInitializer();
+[01;32m[K              ^[m[K
+[01m[Ksrc/mongo/base/global_initializer.cpp:32:14:[m[K [01;35m[Kwarning: [m[K'[01m[Kmongo::{anonymous}::_theGlobalInitializer[m[K' defined but not used [-Wunused-variable]
+ Initializer* _theGlobalInitializer = &getGlobalInitializer();
+[01;32m[K              ^[m[K

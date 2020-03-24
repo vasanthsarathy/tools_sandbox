@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_dependencies
+
+Name: rosplan_dependencies
+Description: Description of rosplan_dependencies
+Version: 0.1.0
+Cflags: -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_knowledge_msgs/include -I/usr/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/VAL/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/rddl_parser -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ippc_server/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ippc_server/cpp-base64 -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ppddl_parser/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ppddl_parser/src
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_dependencies/lib -lval_kcl -lrddl_parser -lippc_server -lppddl_parser
+Requires: roscpp rosplan_knowledge_msgs

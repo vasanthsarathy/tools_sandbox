@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx-complete.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-install.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-mkdir.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-download.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-update.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-patch.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-configure.rule"
+		},
+		{
+			"file" : "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mongocxx"
+		],
+		"name" : "mongocxx"
+	}
+}

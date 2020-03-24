@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/opt/ros/kinetic/lib;/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store/lib;/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/libmongocxx_ros/lib")

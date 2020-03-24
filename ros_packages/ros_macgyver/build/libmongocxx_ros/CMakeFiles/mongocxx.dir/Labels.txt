@@ -1,0 +1,13 @@
+# Target labels
+ mongocxx
+# Source files and their labels
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/CMakeFiles/mongocxx-complete.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-install.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-mkdir.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-download.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-update.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-patch.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-configure.rule
+/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/build/libmongocxx_ros/mongocxx/src/mongocxx-stamp/mongocxx-build.rule

@@ -1,0 +1,37 @@
+My Notes
+
+Looked at the difference between catkin build and catkin_make.
+- Seems like catkin build is a powered-up version of catkin_make with a bunch
+  of extra cool features
+
+Conda env:
+ros_macgyver
+
+Sourcing environment
+source /opt/ros/kinetic/setup.bash
+
+source devel/setup.bash
+
+I learned to use catkin build instead of catkin_make. 
+I had to install empy (pip install empy) and yaml (pip install pyyaml) to get
+various pieces to work.sour
+
+Looks like I need Mongo DB
+
+Rosplan demos
+git clone https://github.com/KCL-Planning/rosplan_demos.git
+
+Occupancy grid
+git clone https://github.com/clearpathrobotics/occupancy_grid_utils.git
+
+Mongodb_store
+git clone https://github.com/strands-project/mongodb_store.git
+
+AAHHHH. Rosplan_demo worked without Anaconda. 
+
+Another useful package that I think could be good for us at some point
+https://github.com/EmaroLab/OWL-ROSPlan
+
+
+
+

@@ -1,0 +1,2 @@
+set(rosplan_interface_mapping_MESSAGE_FILES "")
+set(rosplan_interface_mapping_SERVICE_FILES "/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan_demos/rosplan_demos_interfaces/rosplan_interface_mapping/srv/CreatePRM.srv;/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan_demos/rosplan_demos_interfaces/rosplan_interface_mapping/srv/AddWaypoint.srv;/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan_demos/rosplan_demos_interfaces/rosplan_interface_mapping/srv/RemoveWaypoint.srv")

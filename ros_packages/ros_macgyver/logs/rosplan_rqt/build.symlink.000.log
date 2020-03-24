@@ -1,0 +1,4 @@
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/rosplan_rqt/cmake/rosplan_rqtConfig-version.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/rosplan_rqt/cmake/rosplan_rqtConfig.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/pkgconfig/rosplan_rqt.pc
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/python2.7/dist-packages/rosplan_rqt/__init__.py

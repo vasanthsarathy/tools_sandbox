@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/install
+
+Name: rosplan_planning_system
+Description: Description of rosplan_planning_system
+Version: 0.0.0
+Cflags: -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/install/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_dispatch_msgs/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/rosplan_knowledge_msgs/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/VAL/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/rddl_parser -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ippc_server/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ippc_server/cpp-base64 -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ppddl_parser/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/rosplan/rosplan_dependencies/ppddl_parser/src -I/usr/include
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/install/lib -lrosplan_action_interface
+Requires: roscpp rospy actionlib std_msgs std_srvs diagnostic_msgs rosplan_dispatch_msgs rosplan_knowledge_msgs roslib rostest

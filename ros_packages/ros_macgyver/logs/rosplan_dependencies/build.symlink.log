@@ -1,0 +1,7 @@
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/rosplan_dependencies/cmake/rosplan_dependenciesConfig-version.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/share/rosplan_dependencies/cmake/rosplan_dependenciesConfig.cmake
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/libppddl_parser.so
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/librddl_parser.so
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/libippc_server.so
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/libval_kcl.so
+Symlinking /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/lib/pkgconfig/rosplan_dependencies.pc

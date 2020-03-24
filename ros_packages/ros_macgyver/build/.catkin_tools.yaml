@@ -1,0 +1,6 @@
+devel_space: /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel
+install: false
+install_space: /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/install
+profile: default
+source_space: /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src
+workspace: /home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver

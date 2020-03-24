@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/catkin_tools_prebuild
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/catkin_tools_prebuild/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store
+
+Name: mongodb_store
+Description: Description of mongodb_store
+Version: 0.4.5
+Cflags: -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store/include -I/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/src/mongodb_store/mongodb_store/include
+Libs: -L/home/vsarathy/proj/tools_sandbox/ros_packages/ros_macgyver/devel/.private/mongodb_store/lib -lmessage_store
+Requires: libmongocxx_ros mongodb_store_msgs topic_tools
